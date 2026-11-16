@@ -1,0 +1,90 @@
+
+100 %
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Parneet Singh Kaur">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Pàgina amb CSS</title>
+
+<style>
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f6f9;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+    }
+
+    #main-header {
+        background-color: #1e293b;
+        color: #ffffff;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .subtitol {
+        font-style: italic:
+        color: #cbd5e1;
+    }
+
+    .card {
+        background-color: #ffffff;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+    }
+
+    .alert-box:{
+        border-left: 5px solid #ef4444;
+    }
+
+    .btn {
+        background-color: #2563eb;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+    }
+
+    .btn:hover {
+        background-color: #1d4ed8;
+    }
+
+</style>
+</head>
+
+<body>
+        <header id="main-header">
+        <h1>Benvinguts a Desenvolupament de Programari</h1>
+        <p class="subtitol">Primeres proves amb fulls d'estil en cascada (CSS)</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Mòduls destacats</h2>
+            <p>Aquest curs aprendrem a desenvolupar interfícies web modernes i funcionals.</p>
+            <ul>
+                <li class="destacat">Llenguatges de Marques</li>
+                <li>Programació</li>
+                <li>Bases de Dades</li>
+            </ul>
+            <a href="#" class="btn">Més informació</a>
+        </section>
+
+        <section class="card alert-box">
+            <h2>Nota important</h2>
+            <p>Recordeu lliurar les pràctiques abans de la data límit.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 GS DAM - Llenguatges de Marques</p>
+    </footer>
+
+</body>
+</html>
+
+
